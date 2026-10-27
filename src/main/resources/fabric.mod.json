@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "ai-chat",
+  "version": "${version}",
+  "name": "AI Chat",
+  "description": "Stelle mit /ai <Frage> direkt Fragen an eine KI und erhalte die Antwort im Minecraft-Chat.",
+  "authors": ["Du"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["de.example.aichat.AiChatMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
